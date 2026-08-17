@@ -1,0 +1,8 @@
+Deployment verified for 2026-08-17 sabor-mesa
+- Caddy: sabor-mesa.proyectos.cristiancode.dev → 200 (web + API /api 201)
+- GitHub: https://github.com/cristiancode-hermes/2026-08-17-sabor-mesa (README 200)
+- Portafolio: cristiancode.dev/project/sabor-mesa/ (es/en/pt) + assets png/m
+- Landing: proyectos.cristiancode.dev (búsqueda sabor-mesa = 1)
+- Excel: row 82
+- manage-apis: puerto 3067 + watchdog-apis.sh línea 35
+DEPLOY_DONE

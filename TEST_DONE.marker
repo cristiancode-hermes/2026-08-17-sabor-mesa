@@ -1,0 +1,7 @@
+QA testing complete for 2026-08-17
+Project: sabor-mesa
+Build: ✅ tsc 0 errores · ng build 0 errores/warnings
+Tests: 25/25 passing (jest, 3 suites)
+New tests: existing coverage adequate (25 unit + 72 endpoint + E2E browser)
+Issues: 2 menores (QR box overflow CSS, capture token key) — corregidas
+Published: ✅ Caddy (sabor-mesa.proyectos.cristiancode.dev), ✅ Portfolio (es.ts+en.ts+pt.ts, id 193), ✅ GitHub, ✅ Excel row 82, ✅ Landing, ✅ capture assets
