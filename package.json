@@ -1,0 +1,18 @@
+{
+  "name": "sabor-mesa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sabor & Mesa — restaurante: carta digital, pedidos a mesa con estados en vivo, reservas con expiración en servidor y fidelidad por puntos",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:api": "npm run build -w apps/api",
+    "build:web": "npm run build -w apps/web",
+    "build": "npm run build:api && npm run build:web",
+    "test": "npm test -w apps/api"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2"
+  }
+}
